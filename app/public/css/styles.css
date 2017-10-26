@@ -3,3 +3,12 @@ html,body {
   padding: 0;
   background-color: #e6e6e6;
 }
+
+.container{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
