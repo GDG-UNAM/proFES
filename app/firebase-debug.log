@@ -1,0 +1,28 @@
+[debug] [2017-11-06T07:21:10.354Z] ----------------------------------------------------------------------
+[debug] [2017-11-06T07:21:10.356Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-11-06T07:21:10.357Z] CLI Version:   3.14.0
+[debug] [2017-11-06T07:21:10.357Z] Platform:      linux
+[debug] [2017-11-06T07:21:10.357Z] Node Version:  v8.3.0
+[debug] [2017-11-06T07:21:10.357Z] Time:          Mon Nov 06 2017 01:21:10 GMT-0600 (CST)
+[debug] [2017-11-06T07:21:10.357Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-06T07:21:10.370Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-06T07:21:10.370Z] > authorizing via signed-in user
+[debug] [2017-11-06T07:21:10.372Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/profes-gdgunam  
+ Mon Nov 06 2017 01:21:10 GMT-0600 (CST)
+[debug] [2017-11-06T07:21:10.866Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-06T07:21:10.872Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/profes-gdgunam/tokens  
+ Mon Nov 06 2017 01:21:10 GMT-0600 (CST)
+[debug] [2017-11-06T07:21:11.289Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/waffles710/Documentos/dev/GDG_UNAM/nuevo/proFES/app'...
+[info] 
+[debug] [2017-11-06T07:21:11.299Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/profes-gdgunam  
+ Mon Nov 06 2017 01:21:11 GMT-0600 (CST)
+[debug] [2017-11-06T07:21:11.880Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-06T07:21:11.890Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/827518912357/clients/_:getWebAppConfig  
+ Mon Nov 06 2017 01:21:11 GMT-0600 (CST)
+[debug] [2017-11-06T07:21:12.316Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
