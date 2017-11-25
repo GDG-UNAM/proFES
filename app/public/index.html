@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>proFES</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
 <script>
   // Initialize Firebase
@@ -21,24 +21,27 @@
     <script src="js/main.js" charset="utf-8"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="form">
-        <div class="carrera">
-          <label for="carrera">Carrera</label>
-          <input type="text" name="carrera" value="">
-        </div>
-        <div class="materia">
-          <label for="materia">Materia</label>
-          <input type="text" name="materia" value="">
-        </div>
-        <div class="nombre">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" value="">
-        </div>
-        <div class="buscar">
-          <button type="button" name="button">Buscar</button>
-        </div>
+<!--     <nav>
+      <p>proFES</p>
+    </nav> -->
+    <div class="menu">
+      <div class="cont-title">
+        <p>proFES</p>
       </div>
+      <div class="cont-input">
+        <select name="careers" id="careers">
+          <option disabled selected>Seleccióna una carrera</option>
+          <option value="INGENIERIA EN SOFTWARE">INGENIERIA EN SOFTWARE</option>
+          <option value="INGENIERIA EN SOFTWARE">INGENIERIA EN SOFTWARE</option>
+          <option value="INGENIERIA EN SOFTWARE">INGENIERIA EN SOFTWARE</option>
+        </select>
+      </div>
+      <div class="cont-input">
+        <input type="text">
+      </div>
+    </div>
+    <div class="container">
+      
     </div>
   </body>
 </html>
