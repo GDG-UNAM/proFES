@@ -21,27 +21,40 @@
     <script src="js/main.js" charset="utf-8"></script>
   </head>
   <body>
-<!--     <nav>
-      <p>proFES</p>
-    </nav> -->
+    <!-- menu -->
     <div class="menu">
       <div class="cont-title">
         <p>proFES</p>
       </div>
       <div class="cont-input">
-        <select name="careers" id="careers">
-          <option disabled selected>Seleccióna una carrera</option>
-          <option value="INGENIERIA EN SOFTWARE">INGENIERIA EN SOFTWARE</option>
-          <option value="INGENIERIA EN SOFTWARE">INGENIERIA EN SOFTWARE</option>
-          <option value="INGENIERIA EN SOFTWARE">INGENIERIA EN SOFTWARE</option>
+        <select id="carrera">
+          <option disabled selected>Seleccona una carrera</option>
+          <option value="ing-soft">INGENIERIA </option>
         </select>
       </div>
       <div class="cont-input">
-        <input type="text">
+        <select id="semestre">
+          <option disabled selected>Selecciona un semestre</option>
+          <option value="1er">1er Semestre</option>
+        </select>
+      </div>
+      <div class="cont-input">
+        <select id="materia">
+          <option disabled selected>Selecciona una materia</option>
+          <option value="INGENIERIA EN SOFTWARE">Ineniería en software</option>
+        </select>
+      </div>
+      <div class="cont-input">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre del profesor">
       </div>
     </div>
+    <!-- cuerpo -->
     <div class="container">
-      
+      <div class="prof"></div>
+      <div class="prof"></div>
+      <div class="prof"></div>
+      <div class="prof"></div>
+      <div class="prof"></div>
     </div>
   </body>
 </html>
