@@ -1,5 +1,7 @@
 var database = firebase.database();
 
+//A NUMA ME HACKIARON XD
+
 var refTeacher = database.ref("prof")
 
 function proDb(nombre, apellidoM,apellidoP, semestre, materia, carrera, qualification) {
@@ -31,18 +33,9 @@ database.ref("prof/-Kzr08AYRQALfUVxp8Uj").update({stars: qualification}
 
 }
 
-function showProf(){
-refTeacher.on("child_added", function(data, childKey){
-  console.log(data.val().nomber
-  +" "+ data.val().ma
-  +" "+ data.val().pa
-  +"\n"+ data.val().carre
-  +"\n"+data.val().sem
-  +"\n"+data.val().mat
-  +"\n"+data.val().stars
-  +"\n"+childKey
-  )
+function shP() {
+  refTeacher.on("value", function (data) {
+    console.log(data.val());
 
-})
-
+  })
 }
