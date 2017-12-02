@@ -34,8 +34,8 @@ database.ref("prof/-Kzr08AYRQALfUVxp8Uj").update({stars: qualification}
 }
 
 function shP() {
-  refTeacher.on("value", function (data) {
-    console.log(data.val());
+  refTeacher.on("value", function (datas) {
+    console.log(datas.val());
 
   })
 }
