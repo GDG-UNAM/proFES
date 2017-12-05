@@ -38,4 +38,33 @@ function shP() {
     console.log(datas.val());
 
   })
+
 }
+
+
+function searchName(name) {
+  refTeacher.orderByChild("nomber").equalTo(name).on("child_added", function (data) {
+    console.log(data.val().nomber+ "  "+ data.key);
+  })
+}
+
+function searchSemester(semester) {
+  refTeacher.orderByChild("sem").equalTo(semester).on("child_added", function (data) {
+    console.log(data.val().sem+ " "+ data.key);
+  })
+
+}
+
+function searchMatter(matter) {
+  refTeacher.orderByChild("mat").equalTo(matter).on("child_added", function(data){
+    console.log(data.val().mat+ " "+ data.key);
+
+  })
+}
+
+
+ function searchCareer(career) {
+   refTeacher.orderByChild("carre").equalTo(career).on("child_added", function (data) {
+     console.log(data.val().carre+ " "+ data.key);
+   })
+ }
