@@ -1,0 +1,36 @@
+[debug] [2017-12-05T07:26:31.995Z] ----------------------------------------------------------------------
+[debug] [2017-12-05T07:26:31.999Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-05T07:26:31.999Z] CLI Version:   3.15.3
+[debug] [2017-12-05T07:26:31.999Z] Platform:      linux
+[debug] [2017-12-05T07:26:31.999Z] Node Version:  v8.3.0
+[debug] [2017-12-05T07:26:31.999Z] Time:          Tue Dec 05 2017 01:26:31 GMT-0600 (CST)
+[debug] [2017-12-05T07:26:31.999Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-05T07:26:32.123Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-05T07:26:32.123Z] > authorizing via signed-in user
+[debug] [2017-12-05T07:26:32.125Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-05T07:26:32.125Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/mMOhWO4asG5OynxjZei198cybEjxEpzgGV24_vk17gg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Dec 05 2017 01:26:32 GMT-0600 (CST)
+[debug] [2017-12-05T07:26:32.425Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-05T07:26:32.710Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/profes-gdgunam  
+ Tue Dec 05 2017 01:26:32 GMT-0600 (CST)
+[debug] [2017-12-05T07:26:33.229Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-05T07:26:33.230Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/profes-gdgunam/tokens  
+ Tue Dec 05 2017 01:26:33 GMT-0600 (CST)
+[debug] [2017-12-05T07:26:33.733Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/waffles710/Documentos/dev/GDG_UNAM/nuevo/proFES/app'...
+[info] 
+[debug] [2017-12-05T07:26:33.739Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/profes-gdgunam  
+ Tue Dec 05 2017 01:26:33 GMT-0600 (CST)
+[debug] [2017-12-05T07:26:34.244Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-05T07:26:34.244Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/827518912357/clients/_:getWebAppConfig  
+ Tue Dec 05 2017 01:26:34 GMT-0600 (CST)
+[debug] [2017-12-05T07:26:34.656Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
