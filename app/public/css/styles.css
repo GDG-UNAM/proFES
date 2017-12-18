@@ -3,27 +3,45 @@ html,body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #bbb9b9;	
-}
-
-p{
-	margin: 0;
-	padding: 0;
-	color: white;
+	background-color: #cacaca;
 }
 
 select, input{
 	outline: none;
 	border: none;
-    position: relative;
-    height: 30px;
-    width: 250px;
-    background-color: #59B0E5;
-    color: white;
-    font-size: 14px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  height: 30px;
+  width: 250px;
+  background-color: #59B0E5;
+  color: white;
+  font-size: 14px;
 	cursor: pointer;
 	text-transform: uppercase;
+}
+
+table {
+	border-spacing:0;
+	border-radius: 4px;
+  width: 90%;
+  background: #fbfbfb;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+tr{
+	height: 50px;
+}
+
+th,td{
+	border-bottom: 1px solid #c3c3c3;
+}
+
+th{
+	color: #949494;
+}
+
+tr.green-hover:hover{
+	background-color: #c3c3c3;
+	cursor: pointer;
 }
 
 input{
@@ -36,7 +54,7 @@ select:hover, input:hover{
 	outline: none;
 }
 select:focus, input:focus{
-	outline: none;	
+	outline: none;
 }
 
 ::placeholder {
@@ -44,48 +62,35 @@ select:focus, input:focus{
 }
 
 /*menu*/
-
 .menu{
 	position: fixed;
 	height: 100%;
 	width: 25%;
 	background: #2b556f;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);	
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .cont-title{
 	height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cont-input{
 	height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*cuerpo*/
-
 .container{
-    height: 100%;
-    width: 75%;
-    /* padding: 5%; */
-    /* margin-left: 25%; */
-    /* text-align: center; */
-    /* text-align: justify; */
-    margin: auto 0 auto auto;
-    text-align: center;
+  height: 100%;
+  width: 75%;
+  margin: auto 0 auto auto;
+  text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-.prof {
-    margin: 10px;
-    height: 300px;
-    width: calc(100% / 2.5);
-    background: aqua;
-    display: inline-block;
-}
-
-
