@@ -1,48 +1,45 @@
-var database = firebase.database();
 
-var refTeacher = database.ref("prof")
+// var database = firebase.database();
+// var refProfesor = database.ref("profesores")
 
-function proDb(nombre, apellidoM,apellidoP, semestre, materia, carrera, qualification) {
-  refTeacher.push(
-    {
-    name: nombre,
-    ma: apellidoM,
-    pa: apellidoP,
-    sem: semestre,
-    mat: materia,
-    carre: carrera,
-    stars: qualification
+// function profesorPUSH(nombre, apaterno, amaterno, semestre, materia, carrera, calificacion) {
+//   refProfesor.push({
+//     nombre:   nombre,
+//     apaterno: apaterno,
+//     amaterno: amaterno,
+//     semestre: semestre,
+//     materia:  materia,
+//     carrera:  carrera,
+//     calificacion: calificacion
+//   }).then(function(){
+//     console.log("Se subio correctamente ");
+//   }).catch(function(error){
+//     conlsole.log("Hubo un error" + error);
+//   });
+// }
 
+// function profesorUPDATE(calificacion, key){
+//   database.ref("prof/"+key).update({
+//     calificacion: calificacion
+//   }).then(
+//     function(){
+//       console.log("La edicion fue correcta");
+//   }).catch(
+//     function(error){
+//       console.log("Hubo un error"+ error);
+//   });
+// }
 
-  }).then(function(){
-    console.log("Se subio correctamente ");
-  }).catch(function(error){
-    conlsole.log("Hubo un error" + error);
-  });
-
-}
-
-function editProf(qualification){
-database.ref("prof/-Kzr08AYRQALfUVxp8Uj").update({stars: qualification}
-).then(function(){console.log("La edicion fue correcta");
-}).catch(function(error){
-  console.log("Hubo un error"+ error);
-});
-
-}
-
-function showProf(){
-refTeacher.on("child_added", function(data, childKey){
-  console.log(data.val().nomber
-  +" "+ data.val().ma
-  +" "+ data.val().pa
-  +"\n"+ data.val().carre
-  +"\n"+data.val().sem
-  +"\n"+data.val().mat
-  +"\n"+data.val().stars
-  +"\n"+childKey
-  )
-
-})
-
-}
+// function profesorGET(){
+//   refProfesor.on("child_added", function(data, childKey){
+//     console.log(data.val().nombre
+//     +" "+ data.val().apaterno
+//     +" "+ data.val().amaterno
+//     +"\n"+ data.val().carrera
+//     +"\n"+data.val().semestre
+//     +"\n"+data.val().materia
+//     +"\n"+data.val().calificacion
+//     +"\n"+childKey
+//     )
+//   });
+// }

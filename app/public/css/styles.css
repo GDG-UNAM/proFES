@@ -71,16 +71,19 @@ select:focus, input:focus{
 
 .container{
     height: 100%;
-    /*padding: 5%;*/
-    margin-left: 25%;
-    /*text-align: center;*/
-        /*text-align: justify;*/
+    width: 75%;
+    /* padding: 5%; */
+    /* margin-left: 25%; */
+    /* text-align: center; */
+    /* text-align: justify; */
+    margin: auto 0 auto auto;
+    text-align: center;
 }
 
 .prof {
     margin: 10px;
     height: 300px;
-    width: calc(100% / 3);
+    width: calc(100% / 2.5);
     background: aqua;
     display: inline-block;
 }
